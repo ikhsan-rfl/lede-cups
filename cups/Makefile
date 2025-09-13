@@ -14,7 +14,7 @@ PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION)-source.tar.gz
 PKG_SOURCE_URL:=https://github.com/openprinting/cups/releases/download/v$(PKG_VERSION)
-PKG_SHA256SUM:=660288020dd6f79caf799811c4c1a3207a48689899ac2093959d70a3bdcb7699
+PKG_MD5SUM:=ef5f922e5a774b69b30318f440e746ac
 
 TARGET_LDFLAGS+=-Wl,-rpath-link=$(STAGING_DIR)/usr/lib
 
